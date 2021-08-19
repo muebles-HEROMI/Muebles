@@ -204,7 +204,6 @@
     display: grid;
     grid-template-columns: auto auto auto auto;
     grid-gap: 10px;
-    
     padding: 10px;
       justify-content: center;
     align-content: center;
@@ -286,34 +285,41 @@
   
   .card:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    height: 10px;
   }
   figure{
     width: 100%;
     text-align: center;
     margin: 20px;
     border: #000000;
-    padding: 100px;
+    padding: 50px;
     display: inline-block;
     vertical-align: middle;
 }
 figure h3{
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
   #imagen1{
     float: left;
     margin: 10px;
-    width: 50%;
+    width: 40%;
+    height: 450px;
 }
 #imagen2{
    float: right;
    margin: 10px;
-   width: 50%;
+   width: 40%;
+   height: 550px;
 }
 figure figcaption{
   text-align: justify;
   width: 100%;
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-family: '  Bubbler', Arial;
   color: #1d0415;
+}
+
+.item1{
+  height: 100px;
 }
